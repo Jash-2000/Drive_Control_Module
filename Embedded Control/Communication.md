@@ -9,7 +9,7 @@
 **This is only for msgs originating from Channel 1 - First 2 bytes will be for timing and next 2 for Telemetry Data**  
 
 | Msg ID (11 Bit) | Data Bifercation  | Channel Number  | Description |
-| ------ -------- | ----------------  | --------------  | ----------- |
+| --------------- | ----------------  | --------------  | ----------- |
 |     0x01        |     All Ones (DAQ Stops recording)  | 1 to 2(RTD) and 1 to 3(Voltage turnoff)    | Shutdown Sequence |
 |     0x02        |     Old Value(2) and Present Value(2)          | 1 to 4    | Torque Encoder |
 |     0x03        |     All Zeroes          | 2 to 1    | RTD Pressed |
